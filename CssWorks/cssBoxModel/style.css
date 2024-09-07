@@ -1,0 +1,61 @@
+.border{
+
+    border: 1px solid black;
+}
+
+.header,.footer{
+
+    width: 20vw;
+    height: 50px;
+}
+
+.header{
+
+    margin-left: auto;
+    margin-right: auto;
+    background-color: azure;
+}
+
+.footer{
+
+    margin-top: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: yellow;
+}
+
+.aside,.section,.main{
+
+    width: 15%;
+    height: 50px;
+
+}
+
+.aside{
+
+    margin-top: 50px;
+    margin-right: auto;
+    background-color: burlywood;
+}
+
+.section{
+
+    margin-top: 50px;
+    margin-left: auto;
+    background-color: rosybrown;
+}
+
+.main{
+
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aqua;
+    
+}
+
+.text{
+
+    text-align: center;
+    padding-top: 20px;
+    
+}

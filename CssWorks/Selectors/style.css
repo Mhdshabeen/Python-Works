@@ -1,0 +1,57 @@
+/* using tagname */
+body{
+
+    background-color: black;
+}
+h1{
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+h2{ 
+    color: yellow;
+    text-decoration: line-through;
+}
+/* using id */
+
+/* syntax # id name */
+
+#one{
+
+    color: aqua;
+    text-decoration: none;
+
+}
+
+#two{
+
+    color: chartreuse;
+    text-align: right;
+}
+
+/* using classsname
+syntax start . in starting of class name
+
+success=>green
+danger=>
+primary=>blue
+warning=>yello*/
+
+.heading{
+
+    text-align: center;
+    text-decoration:line-through;
+    color: darkmagenta;
+}
+.first{
+
+    color: hotpink;
+}
+.second{
+
+    color: mediumseagreen;
+}
+.third{
+
+    color: red;
+}

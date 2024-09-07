@@ -1,0 +1,43 @@
+builtins.py
+============
+
+def print(msg.ends="\n")
+
+def input()
+
+def sorted(itreble,reverse=false)
+
+
+class str:
+
+    def capitalize()
+
+    def upper()
+
+    def casefold()
+
+    def lower()
+
+    def index(chracter)
+
+    def isalpha()
+
+    def isdigit()
+
+    def isalnum()
+
+    def count(chracter)
+
+    def split(literal)
+
+    def startswith(char)
+
+    def endswith(char)
+
+    def replace("str or literal","replace char")  
+
+    def strip("char")
+
+    def lstrip("char")
+
+    def rstrip("char")  

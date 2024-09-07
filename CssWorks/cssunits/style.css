@@ -1,0 +1,67 @@
+body{
+
+    width: 100vw;
+
+    height: 100vh;
+}
+*{
+    margin: 0px;
+}
+
+.border{
+
+    border: 1px solid black;
+}
+
+.text{
+
+    text-align: center;
+    
+
+    
+}
+
+.parent{
+
+    width: 50%;
+
+    min-height: 400px;
+    
+    background-color: pink;
+}
+
+.child1{
+
+    width: 50%;
+    height: 100px;
+    background-color: blue;
+}
+
+.child2{
+
+    width: 75%;
+    height: 100px;
+    background-color: green;
+}
+
+.child3{
+
+    width: 99.9vw;
+    height: 100px;
+    background-color: aqua;
+}
+
+.child4{
+
+    width: 50vw;
+    height: 100px;
+    background-color: aqua;
+}
+.child5{
+
+    width: 400px;
+    height: 100px;
+    background-color: burlywood;
+}
+
+

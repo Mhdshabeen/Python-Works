@@ -1,0 +1,1 @@
+print("hello world")#to print a msg to console

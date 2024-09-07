@@ -1,0 +1,31 @@
+.box{
+
+    width: 250px;
+
+    height: 200px;
+
+    border-width: 1px;
+
+    border-color: black;
+
+    border-style: solid;
+
+    /* or we can give this as border:size,color,style; */
+
+
+}
+
+.bg-success{
+
+    background-color: green;
+}
+
+.bg-danger{
+
+    background-color: red;
+}
+
+.bg-warning{
+
+    background-color: yellow;
+}

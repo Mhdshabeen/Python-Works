@@ -1,0 +1,35 @@
+.parent{
+
+    width: 70%;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: rgb(222, 234, 244);
+    border: 1px solid lightgray;
+    grid-column-gap: 10px;
+    grid-row-gap:10px ;
+    padding: 10px;
+}
+
+.child{
+
+    background-color: rgb(94, 101, 108);
+    border: 1px solid lightcoral;
+}
+
+.parent>:nth-child(1){
+
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: lightseagreen;
+}
+
+.parent>:nth-child(4){
+
+    grid-column-start:3 ;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: lightskyblue;
+}
