@@ -1,13 +1,23 @@
 
+# width = 20
+# print ('HackerRank'.center(width,'-'))
 
-    # if i==2:
+width=130
+for row in range(1,25):
 
-    #     for k in range(0,10):
+    string=""
 
-    #         if k%2==0:
-    #             print("*",end="")
-    #         else:
-    #             print(" ",end="")
-    #     print("")
+    if row%2!=0:
+
+        for i in range(1,row+1):
+
+            string=string+"*"
+
+       
+        print(string.center(width," "),end="\t")
+            
+
+        print("")
+   
 
 
